@@ -10,6 +10,7 @@ class StringCalculator:
             # print(x)
             if any(el < 0 for el in x):
                 # print("Negative numbers not allowed")
-                raise Exception("Negative numbers not allowed")
+                # raise Exception("Negative numbers not allowed")
+                pass
 
             return sum(x)
